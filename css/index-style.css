@@ -79,14 +79,16 @@ img {
     background-position: center;
     padding: 3rem;
 
-    /* Flexbox Stuff missing!! */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
 
     box-shadow: var(--shadow);
 }
 
 .showcase h1 {
-    font-size: 4rem;
-    margin-bottom: 0;
+    font-size: 4rem; 
     color: var(--light);
 }
 
@@ -106,7 +108,6 @@ img {
     box-shadow: var(--shadow);
     padding: 1.5rem;
 }
-background-position: center;
 
 .top-box .price {
     font-size: 2.5rem;
